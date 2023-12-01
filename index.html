@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intital-scale=1.0" />
+    <title>Micro Project 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="top">
+      <div class="score">
+        <div class="text">
+          ROCK<br />
+          PAPER<br />
+          SCISSOR
+        </div>
+        <div class="computer">
+          COMPUTER <br />
+          SCORE
+          <div class="computerScore">0</div>
+        </div>
+        <div class="your">
+          YOUR<br />
+          SCORE
+          <div class="yourScore">0</div>
+        </div>
+      </div>
+    </div>
+    <section class="mid">
+      <button class="buttons" data-choice="paper">
+        <choice class="paper">
+          <img
+            src="paper.svg"
+            alt="paper"
+            style="width: 100px; height: 100px"
+          />
+        </choice>
+      </button>
+      <button class="buttons" data-choice="rock">
+        <choice class="rock">
+          <img src="rock.svg" alt="rock" style="width: 100px; height: 100px" />
+        </choice>
+      </button>
+      <button class="buttons" data-choice="scissor">
+        <choice class="scissor">
+          <img
+            src="scissor.svg"
+            alt="scissor"
+            style="width: 100px; height: 100px"
+          />
+        </choice>
+      </button>
+    </section>
+    <div class="bottom">
+      <button class="rulesButton">RULES</button>
+    </div>
+    <div class="rules">
+      <div class="rulesHead">
+        <h2 class="rules_heading">Game Rules</h2>
+        <button class="close-btn">X</button>
+      </div>
+      <div class="rulesText">
+        Rock beats scissors, scissors beat paper, and paper beats rock.<br /><br />
+        Agree ahead of time whether you'll count off “rock, paper, scissors,
+        shoot” or just “rock, paper, scissors.<br /><br />
+        Use rock, paper, scissors to settle minor decisions or simply play to
+        pass the time<br /><br />
+        If both players lay down the same hand, each player lays down another
+        hand
+      </div>
+    </div>
+  </body>
+</html>
