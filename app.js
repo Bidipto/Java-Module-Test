@@ -119,5 +119,4 @@ playAgainBtn.addEventListener("click", () => {
   });
 
   resultText.innerText = "";
-  resultWinner.classList.toggle("hidden");
 });
